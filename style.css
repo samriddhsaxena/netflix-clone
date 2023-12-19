@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(41, 39, 39);
+}
+.navbar{
+    display: flex;
+    /* justify-content: right; */
+    flex-direction: row;
+}
+#background{
+    width: 1215px;
+    filter: brightness(0.4);
+}
+.netflixlogo{
+    position: absolute;
+    top: 0;
+    margin-right: 100px;
+}
+.language{
+    position: absolute;
+    top: 0;
+    margin-left: 950px;
+    margin-top: 20px;
+}
+#language{
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.signin{
+    position: absolute;
+    top: 0;
+    margin-left: 1090px;
+    margin-top: 20px;
+}
+#signin{
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#biggest{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 250px;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 85px;
+}
+#cancel{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 400px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 420px;
+}
+#ready{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 450px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 300px;
+}
+#emailio{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 490px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 320px;
+    width: 380px;
+    height: 55px;
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+#getstarted{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 490px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 710px;
+    width: 200px;
+    height: 55px;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.container2{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    margin-top: 5px;
+}
+#enjoy{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 230px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+#ps{
+    color: white;
+    font-size: 24px;
+    padding-left: 30px;
+}
+#tv{
+    float: right;
+    margin-top: 160px;
+    margin-right: 30px;
+}
+.container3{
+    background-color: black;
+    height: 580px;
+    width: 100%;
+    margin-top: 5px;
+}
+#download{
+    margin-bottom: 200px;
+    margin-left: 120px;
+    position: absolute;
+    top: 1450px;
+}
+#dltext{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-left: 620px;
+    padding-top: 150px;
+}
+#save{
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    margin-left: 620px;
+    padding-top: 20px;
+}
